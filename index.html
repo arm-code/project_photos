@@ -10,96 +10,172 @@
 
   <body>
     <header>
-      <h1>JAVIER SAENZ ALONSO</h1>
+      <h1>Javier Saenz Photography</h1>
       <nav>
         <ul>
-          <li><a href="#indice">INDICE</a></li>
-          <li><a href="#informacion">INFORMACION DEL CLIENTE</a></li>
-          <li><a href="#historia">HISTORIA DE LA MARCA</a></li>
-          <li><a href="#publico">PUBLICO OBJETIVO</a></li>
+          <li><a href="#indice">INICIO</a></li>
+          <li><a href="#informacion">OBJETIVO DEL PROYECTO</a></li>
+          <li><a href="#historia">PUBLICO META</a></li>
+          <li><a href="#publico">MIS TRABAJOS</a></li>
           <li><a href="#experiencia">EXPERIENCIA DEL USUARIO</a></li>
+          <li><a href="#contacto">CONTACTO</a></li>
         </ul>
       </nav>
     </header>
 
     <section id="indice">
-      <h2>INDICE</h2>
+      <div class="title"><h2>BIENVENIDO A MI SITIO WEB</h2></div>
+
       <div class="content">
         <div class="image-container">
-          <img src="images/f1.jpg" alt="f1" />
+          <img src="images/f5.jpg" alt="f1" />
         </div>
         <div class="text-container">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-          beatae nostrum praesentium! Enim quasi dignissimos sequi ratione
-          placeat, qui voluptatem voluptatibus laborum atque obcaecati
-          voluptates reiciendis, accusantium facere, quaerat explicabo?
+          <p>
+            Mi nombres es <strong>Javier Alonso</strong>, un fotógrafo
+            apasionado que encuentra alegría en capturar momentos auténticos y
+            contar historias a través de la magia de la fotografía.
+          </p>
+          <p>
+            Mi enfoque se centra en la belleza de lo cotidiano, buscando la luz
+            perfecta y la composición única que hacen que cada imagen sea
+            especial.
+          </p>
+          <p>
+            Creo en el poder de las imágenes para contar historias duraderas y
+            estoy emocionado por la oportunidad de capturar los momentos que
+            hacen que la vida sea extraordinaria.
+          </p>
+          <p>
+            Cuando no estoy detrás de la cámara, disfruto explorando nuevos
+            lugares y absorbiendo la inspiración de la naturaleza.
+          </p>
+          <p>¡Gracias por visitar mi espacio visual!</p>
         </div>
       </div>
     </section>
 
     <section id="informacion">
-      <h2>INFORMACION DEL CLIENTE</h2>
+      <div class="title"><h2>OBJETIVO DEL PROYECTO</h2></div>
       <div class="content">
         <div class="image-container">
-          <img src="images/f1.jpg" alt="f1" />
+          <img src="images/f3.jpg" alt="f1" />
         </div>
         <div class="text-container">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-          beatae nostrum praesentium! Enim quasi dignissimos sequi ratione
-          placeat, qui voluptatem voluptatibus laborum atque obcaecati
-          voluptates reiciendis, accusantium facere, quaerat explicabo?
+          <ul>
+            <li>Lograr una interfaz sencilla, limpia y minimalista.</li>
+            <li>Mostrar las fotografias en grande para que se vea bien.</li>
+            <li>Que sea una pagina que cargue rapido.</li>
+            <li>Que se adapte bien a dispostivos moviles.</li>
+          </ul>
         </div>
+      </div>
+      <div class="upBtn">
+        <a id="upBtn" href="#indice">Regresar al inicio</a>
       </div>
     </section>
 
     <section id="historia">
-      <h2>HISTORIA DE LA MARCA</h2>
+      <div class="title"><h2>PUBLICO META</h2></div>
       <div class="content">
         <div class="image-container">
-          <img src="images/f1.jpg" alt="f1" />
+          <img src="images/f4.jpg" alt="f1" />
         </div>
         <div class="text-container">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-          beatae nostrum praesentium! Enim quasi dignissimos sequi ratione
-          placeat, qui voluptatem voluptatibus laborum atque obcaecati
-          voluptates reiciendis, accusantium facere, quaerat explicabo?
+          <ul>
+            <li>Personas interesadas en conocer un fotografo independiente</li>
+            <li>Personas que les guste la fotografia oscura</li>
+            <li>
+              Personas con el ojoa abierto para poder mas alla que las tipicas
+              fotos que estan en todos lados.
+            </li>
+            <li>SEXO: INDISTINTO</li>
+            <li>EDAD 16- ADELANTE</li>
+          </ul>
         </div>
+      </div>
+      <div class="upBtn">
+        <a id="upBtn" href="#indice">Regresar al inicio</a>
       </div>
     </section>
 
-    <section id="photoSection" class="publico">
-      <h2>Mis trabajos</h2>
+    <section class="photoSection" id="publico">
+      <div class="title"><h2>MIS TRABAJOS</h2></div>
       <div id="photoCarousel">
-        <img class="carousel-img" src="./images/f2.jpg" alt="Imagen 1" />
-        <img class="carousel-img" src="./images/f3.jpg" alt="Imagen 2" />
-        <img class="carousel-img" src="./images/f5.jpg" alt="Imagen 3" />
+        <img class="carousel-img" src="./images/f1.jpg" alt="Imagen 1" />
+        <img class="carousel-img" src="./images/f2.jpg" alt="Imagen 2" />
+        <img class="carousel-img" src="./images/f3.jpg" alt="Imagen 3" />
+        <img class="carousel-img" src="./images/f4.jpg" alt="Imagen 4" />
+        <img class="carousel-img" src="./images/f5.jpg" alt="Imagen 5" />
         <!-- Agrega más imágenes según sea necesario -->
       </div>
       <div>
-        <button id="prevBtn" onclick="prevSlide()">Anterior</button>
-        <button id="nextBtn" onclick="nextSlide()">Siguiente</button>
+        <button id="prevBtn" onclick="prevSlide()">&larr;</button>
+        <button id="nextBtn" onclick="nextSlide()">&rarr;</button>
+      </div>
+      <div class="upBtn">
+        <br>
+        <a id="upBtn" href="#indice">Regresar al inicio</a>
       </div>
     </section>
 
     <section id="experiencia">
-      <h2>EXPERIENCIA DEL USUARIO</h2>
+      <div class="title"><h2>EXPERIENCIA DEL USUARIO</h2></div>
       <div class="content">
         <div class="image-container">
-          <img src="images/f1.jpg" alt="f1" />
+          <img src="images/f6.jpg" alt="f1" />
         </div>
         <div class="text-container">
-          Buscamos que el usuario se sienta mas comodo vistitando el sitio web
-          tanto como en moviles, tablets y computadoras. Que el usuario lo
-          encuentre llamativo para quedarse a ver la fotografias de Javier Saenz
-          Photography. Que el le de curiosidad alguno de los proyectos y que
-          guste de ver el trabajo. Diseño sencillo de leer para que el usuario
-          siempre a dodne ir y evitar confusiones y molestias
+          <ul>
+            <li>
+              Buscamos que el usuario se sienta mas comodo vistitando el sitio
+              web tanto como en moviles, tablets y computadoras.
+            </li>
+            <li>
+              Que el usuario lo encuentre llamativo para quedarse a ver la
+              fotografias de Javier Saenz Photography,
+            </li>
+            <li>
+              Que el le de curiosidad alguno de los proyectos y que guste de ver
+              el trabajo.
+            </li>
+            <li>
+              Diseño sencillo de leer para que el usuario siempre a dodne ir y
+              evitar confusiones y molestias
+            </li>
+          </ul>
         </div>
+      </div>
+      <div class="upBtn">
+        <a id="upBtn" href="#indice">Regresar al inicio</a>
       </div>
     </section>
 
+    <section id="contacto">
+      <div class="title">
+        <h2>CONTACTO</h2>
+      </div>
+      <div class="content">
+        <div class="image-container">
+          <h2>CONTACTO DE LA EMPRESA</h2>
+          <p>Javier Saenz Alonso</p>
+          <p>FOTOGRAFO</p>
+        </div>
+        <div class="text-container">
+          <ul>
+            <li>656 108 3667</li>
+            <li>al194409@alumnos.uacj.mx</li>
+          </ul>
+        </div>
+      </div>
+      <div class="upBtn">
+        <a id="upBtn" href="#indice">Regresar al inicio</a>
+      </div>
+    </section>
     <footer>
-      <p>&copy; 2023 JAVIER SAENZ ALONSO. Todos los derechos reservados.</p>
+      <p>
+        &copy; 2023 Javier Saenz Photography. Todos los derechos reservados.
+      </p>
     </footer>
   </body>
 </html>
